@@ -1,3 +1,3 @@
 select
     text
-from {{ source( 'chat_messages_v') }} 
+from {{ source('public', 'chat_messages_v') }} 
