@@ -1,3 +1,3 @@
 select
     text
-from {{ ref('chat_messages_v') }}
+from 'chat_messages_v';
